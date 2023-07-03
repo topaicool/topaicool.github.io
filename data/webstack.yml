@@ -1,5 +1,6 @@
 ---
 - taxonomy: AI 聊天
+  taxonomy_tip: chat
   icon: fas fa-comments fa-lg 
   links:
     - title: ChatGPT
@@ -40,6 +41,7 @@
       logo: https://api.iowen.cn/favicon/tongyi.aliyun.com.png
 
 - taxonomy: AI 提示词
+  taxonomy_tip: prompt
   icon: fas fa-file fa-lg 
   links:
     - title: PromptHero
@@ -103,6 +105,7 @@
       logo: https://api.iowen.cn/favicon/www.ordinarypeopleprompts.com.png
 
 - taxonomy: AI 写作
+  taxonomy_tip: write
   icon: fas fa-pen fa-lg 
   links:
     - title: Notion AI
@@ -111,6 +114,7 @@
       description: Notion AI是一款强大的AI写作助手，可以帮助用户快速撰写、编辑、总结文本内容，并提供集思广益的功能。
 
 - taxonomy: AI 绘图
+  taxonomy_tip: draw
   icon: fas fa-image fa-lg 
   links:
     - title: Midjourney 官网
@@ -139,6 +143,7 @@
       description: 百度出品的AI绘画网站文心·一格，AI艺术和创意辅助平台，依托飞桨、文心大模型的技术创新推出的“AI作画”产品，可轻松驾驭多种风格，人人皆可“一语成画”
 
 - taxonomy: AI 办公
+  taxonomy_tip: office
   icon: fas fa-building fa-lg 
   links:
     - title: Beautiful.ai
@@ -171,6 +176,7 @@
       logo: https://api.iowen.cn/favicon/chatexcel.com.png
 
 - taxonomy: AI 编程
+  taxonomy_tip: code
   icon: fas fa-code fa-lg 
   links:
     - title: cursor.so
@@ -191,6 +197,7 @@
       description: CodeWhisperer 是一种亚马逊推出的AI 编程服务，个人用户免费使用
 
 - taxonomy: AI 视频
+  taxonomy_tip: video
   icon: fas fa-video fa-lg 
   links:
     - title: Runway
@@ -204,9 +211,10 @@
     - title: Fliki
       logo: https://api.iowen.cn/favicon/fliki.ai.png
       url: https://fliki.ai/
-      description: 最佳文本转语音和文本转视频软件...
+      description: 最佳文本转语音和文本转视频软件
 
 - taxonomy: AI 模型
+  taxonomy_tip: model
   icon: fas fa-robot fa-lg 
   links:
     - title: Stable Diffusion
