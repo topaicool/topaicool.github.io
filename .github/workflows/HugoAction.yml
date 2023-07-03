@@ -6,7 +6,8 @@ on:
       - main  # 这里的意思是当 main 分支发生 push 的时候，运行下面的 jobs
 
 jobs:
-  deploy: 
+  build_and_deploy: 
+    name:   build_and_deploy
     runs-on: ubuntu-latest 	# 在什么环境运行任务
     steps:
       - uses: actions/checkout@v3   # 引用 actions/checkout 这个 action，与所在的 github 仓库同名
@@ -45,11 +46,10 @@ jobs:
 
 
 
-jobs:
-  build_and_deploy_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+  deploy_to_azure:
+    needs: build_and_deploy
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+    name: deploy_to_azure
     steps:
       - uses: actions/checkout@v3
         with:
