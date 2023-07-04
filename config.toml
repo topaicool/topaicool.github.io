@@ -14,7 +14,7 @@ publishDir            = "public"					# 站点静态文件保存目录
     description   = "AI工具集导航收录了国内外数百个AI工具，包括AI写作工具、AI图像生成和背景移除、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等AI工具集合大全，以及AI学习开发的常用网站、框架和模型，帮助你加入人工智能浪潮，自动化高效完成任务！"
     upload        = "https://github.com/topaicool/topaicool.github.io"  # 左侧导航栏的"网站提交"
     about         = "#"	# 左侧导航栏的"关于导航"页面(./about)
-    repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
+    repository    = "https://github.com/topaicool/topaicool.github.io"  
     enablePreLoad = false					# 网站完全打开前预加载动画
     textPreLoad   = "AI工具集导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = true					# 默认展开左侧边导航栏
@@ -49,4 +49,4 @@ publishDir            = "public"					# 站点静态文件保存目录
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：topai.cool#proton.me <br/>Copyright © {year} By topai.cool<br/>'
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：topai.cool#paymore.cc <br/>Copyright © {year} By topai.cool<br/>'
